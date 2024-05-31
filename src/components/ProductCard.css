@@ -1,0 +1,75 @@
+/* ProductCard */
+.productCard {
+  width: 25%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 7.5px;
+  margin: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productCard img {
+  max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.08) 1px 3px 5px;
+  max-height: 100%;
+  border-radius: 7px;
+  margin: 10px 0px;
+}
+
+.productCard .name {
+  margin: 10px 0px;
+}
+
+.productCard p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.productCard .action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.productCard button {
+  border: 0px;
+  border-radius: 7px;
+  font-size: 8px;
+  color: #FFFFFF;
+  background-color: blueviolet;
+  padding: 7px 10px;
+  cursor: pointer;
+  max-width: 150px;
+  transition: background-color 0.3s ease;
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.productCard button:hover {
+  background-color: #a10b95;
+}
+
+.productCard .remove {
+  border: 0px;
+  border-radius: 7px;
+  font-size: 8px;
+  color: #FFFFFF;
+  background-color: rgb(186, 4, 4);
+  padding: 7px 10px;
+  cursor: pointer;
+  max-width: 150px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.productCard .remove:hover {
+  background-color: rgb(161, 6, 6);
+}
+
+@media screen and (max-width: 680px) {
+  .productCard {
+    width: 30%;
+  }
+}
