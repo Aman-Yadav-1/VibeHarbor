@@ -109,7 +109,7 @@
     font-size: 0.3em;
   }
   .hero-section img{
-    min-height: 50vh;
+    min-height: 75vh;
     min-width: 768px;
     object-fit: cover;
   }
