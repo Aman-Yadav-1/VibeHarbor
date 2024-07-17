@@ -66,3 +66,9 @@
   line-height: 2;
   text-align: center;
 }
+.footer .copyright{
+  font-size: 0.5rem;
+}
+.footer .madewith{
+  font-size: 0.4rem;
+}
