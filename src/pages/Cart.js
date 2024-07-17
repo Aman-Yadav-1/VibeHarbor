@@ -17,7 +17,7 @@ export const Cart = () => {
           <CartCard key={product.id} product={product} />
         ))}
         <button className='button-buy'>
-          Proceed To Buy ({cartList.length}) item
+          Proceed To Buy {cartList.length} item
         </button>
       </section>
     </main>
