@@ -1,6 +1,5 @@
 # VibeHarbor 🎧
 
-![VibeHarbor Banner](public/assets/logo.png)
 
 A premium audio e-commerce platform delivering exceptional sound experiences through carefully curated headphones and earbuds.
 
