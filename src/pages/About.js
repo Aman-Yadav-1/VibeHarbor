@@ -1,30 +1,66 @@
 import React from 'react'
 
 export const About = () => {
-    return (
-        <div className="about-section">
-          <h1>About VibeHarbor</h1>
-          <p className="main-about">
-            Welcome to VibeHarbor, your ultimate destination for premium headphones and earbuds!
-          </p>
-          <h2>Our Story</h2>
-          <p>
-            Founded in 2024 by passionate audiophiles, VibeHarbor was born out of a love for music and exceptional sound quality. We believe that everyone deserves to experience music the way it was meant to be heard.
-          </p>
+  return (
+    <div className="about-section">
+      <div className="about-header">
+        <h1>Welcome to VibeHarbor</h1>
+        <p className="main-about">
+          Your Ultimate Destination for Premium Audio Excellence
+        </p>
+      </div>
+
+      <div className="about-grid">
+        <section className="about-card mission">
+          <div className="icon">🎯</div>
           <h2>Our Mission</h2>
-          <p>
-            At VibeHarbor, we're on a mission to provide top-notch audio products that enhance your listening experience. Whether you're a music enthusiast, a gamer, or someone who needs reliable earbuds for work, we've got you covered.
+          <p>At VibeHarbor, we're passionate about delivering transformative audio experiences. We believe everyone deserves to experience music in its purest form. Our carefully curated collection represents the pinnacle of audio technology.</p>
+        </section>
+
+        <section className="about-card values">
+          <div className="icon">⭐</div>
+          <h2>Our Values</h2>
+          <p>Excellence, innovation, and customer satisfaction drive everything we do. We're committed to:
+            <ul>
+              <li>Uncompromising Quality</li>
+              <li>Customer-First Approach</li>
+              <li>Continuous Innovation</li>
+              <li>Transparent Business Practices</li>
+            </ul>
           </p>
-          <h2>Why Choose VibeHarbor?</h2>
-          <ul>
-            <li>Curated Selection: Our team meticulously selects headphones and earbuds from renowned brands, ensuring superior sound and comfort.</li>
-            <li>Expert Advice: Need help choosing the perfect pair? Our knowledgeable staff is here to guide you.</li>
-            <li>Customer Satisfaction: We're committed to your satisfaction. If you're not happy, we're not happy!</li>
-            <li>Fast Shipping: Get your audio gear delivered right to your doorstep.</li>
+        </section>
+
+        <section className="about-card features">
+          <div className="icon">🎧</div>
+          <h2>Premium Features</h2>
+          <ul className="feature-list">
+            <li>Hand-Picked Premium Selection</li>
+            <li>24/7 Expert Support</li>
+            <li>Free Express Shipping</li>
+            <li>30-Day Money-Back Guarantee</li>
+            <li>Professional Reviews</li>
+            <li>Exclusive Member Deals</li>
           </ul>
-          <p>
-            Explore our collection today and immerse yourself in crystal-clear sound!
+        </section>
+
+        <section className="about-card technology">
+          <div className="icon">🚀</div>
+          <h2>Our Technology</h2>
+          <p>We partner with industry leaders to bring you the latest in audio innovation:
+            <ul>
+              <li>Active Noise Cancellation</li>
+              <li>Hi-Res Audio Certification</li>
+              <li>Advanced Bluetooth Codecs</li>
+              <li>Smart Device Integration</li>
+            </ul>
           </p>
-        </div>
-      );      
-}
+        </section>
+      </div>
+
+      <section className="commitment-banner">
+        <h2>Our Commitment to Excellence</h2>
+        <p>From audiophiles to casual listeners, we're here to help you discover the perfect audio companion for your lifestyle. Join thousands of satisfied customers who've elevated their listening experience with VibeHarbor.</p>
+      </section>
+    </div>
+  );
+};
