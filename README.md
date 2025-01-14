@@ -102,19 +102,21 @@ Desktop: Full feature display
 Tablet: Adapted grid layouts
 Mobile: Optimized for small screens
 Breakpoints at 1200px, 768px, and 480px
+
+```
 🤝 Contributing
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit changes (git commit -m 'Add AmazingFeature')
-Push to branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+- Fork the repository
+- Create your feature branch (git checkout -b feature/AmazingFeature)
+- Commit changes (git commit -m 'Add AmazingFeature')
+- Push to branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 💖 Support
 If you find this project helpful, consider supporting the developer through the "Help Developer" button in the cart section.
 
 🔗 Connect
 GitHub: @Aman-Yadav-1
-Portfolio: [Your Portfolio]
-LinkedIn: [Your LinkedIn]
+[[Aman Yadav](https://aman-yadav.vercel.app/)]
+[[Linkedin](https://linkedin.com/in/aman-yadav-ay)]
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -126,5 +128,3 @@ Razorpay for payment integration
 All contributors and supporters
 Made with ❤️ by Aman Yadav
 
-
-This README provides comprehensive information about
