@@ -6,8 +6,11 @@ export const Cart = () => {
   const cartList = useSelector(state => state.cartState.cartList);
   const total = useSelector(state => state.cartState.total);
 
-
   useTitle('Cart');
+
+  const handlePayment = () => {
+    window.location.href = "https://razorpay.me/@amanyadav38";
+  };
 
   return (
     <main>
@@ -16,9 +19,12 @@ export const Cart = () => {
         {cartList.map((product) => (
           <CartCard key={product.id} product={product} />
         ))}
-        <button className='button-buy'>
-          Proceed To Buy {cartList.length} item
-        </button>
+        <div className="cart-footer">
+          <p className="developer-note">Your support helps keep this project alive!</p>
+          <button className='button-buy' onClick={handlePayment}>
+            Help Developer ❤️
+          </button>
+        </div>
       </section>
     </main>
   );
